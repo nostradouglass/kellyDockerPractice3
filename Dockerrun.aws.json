@@ -1,0 +1,12 @@
+{
+    "AWSEBDockerrunVersion": 2,
+    "containerDefinitions":[
+        {
+            "name": "front3",
+            "image": "kellydouglass/front3",
+            "hostname": "front3",
+            "essential": true,
+            "memory": 128
+        }
+    ]
+}
